@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="opx" fetch="https://github.com/open-switch" revision="master"/>
+  <remote name="pkarashchenko" fetch="https://github.com/pkarashchenko" revision="master"/>
   <default remote="opx" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
-  <project path="opx-platform-config" name="opx-platform-config"/>
+  <project remote="pkarashchenko" path="opx-platform-config" name="opx-platform-config"/>
   
   <!-- The following section is for infrastructure and libraries-->
   <project path="opx-common-utils" name="opx-common-utils"/>
