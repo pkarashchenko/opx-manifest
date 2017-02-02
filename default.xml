@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="opx" fetch="https://github.com/open-switch" revision="master"/>
-  <remote name="pkarashchenko" fetch="https://github.com/pkarashchenko" revision="master"/>
+  <remote name="pkarashchenko" fetch="https://github.com/pkarashchenko" revision="as7512-32x-dev"/>
   <default remote="opx" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
