@@ -11,7 +11,7 @@
   <project path="opx-common-utils" name="opx-common-utils"/>
   <project path="opx-cps" name="opx-cps"/>
   <project path="opx-db-sql" name="opx-db-sql"/>
-  <project path="opx-logging" name="opx-logging"/>
+  <project remote="pkarashchenko" path="opx-logging" name="opx-logging"/>
 
   <!-- The following section is for API model definitions -->
   <project path="opx-base-model" name="opx-base-model"/>
@@ -23,7 +23,7 @@
   <project path="opx-nas-interface" name="opx-nas-interface"/>
   <project path="opx-nas-l2" name="opx-nas-l2"/>
   <project path="opx-nas-l3" name="opx-nas-l3"/>
-  <project path="opx-nas-ndi" name="opx-nas-ndi"/>
+  <project remote="pkarashchenko" path="opx-nas-ndi" name="opx-nas-ndi"/>
   <project path="opx-nas-ndi-api" name="opx-nas-ndi-api"/>
   <project path="opx-nas-platform-s6000" name="opx-nas-platform-s6000"/>
   <project path="opx-nas-platform-vm" name="opx-nas-platform-vm"/>
@@ -34,7 +34,7 @@
 
   <!-- SAI -->
   <project path="opx-sai-api" name="opx-sai-api"/>
-  <project path="opx-sai-common" name="opx-sai-common"/>
+  <project remote="pkarashchenko" path="opx-sai-common" name="opx-sai-common"/>
   <project path="opx-sai-common-utils" name="opx-sai-common-utils"/>
   <project path="opx-sai-vm" name="opx-sai-vm"/>
 
@@ -52,6 +52,6 @@
   <project path="opx-tmpctl" name="opx-tmpctl"/>
   
   <!-- The following section is for build tools and scripts -->
-  <project path="opx-build" name="opx-build"/>
+  <project remote="pkarashchenko" path="opx-build" name="opx-build"/>
 
 </manifest>
