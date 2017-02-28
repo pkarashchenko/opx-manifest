@@ -31,7 +31,7 @@
   <project name="opx-nas-linux"/>
 
   <!-- SAI -->
-  <project name="opx-sai-api"/>
+  <project path="opx-sai-api" name="SAI" revision="dell.0.94+" />
   <project remote="pkarashchenko" name="opx-sai-common"/>
   <project name="opx-sai-common-utils"/>
   <project name="opx-sai-vm"/>
