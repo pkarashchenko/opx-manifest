@@ -50,8 +50,8 @@
   <project name="opx-tmpctl"/>
 
   <!-- The following section is for meta packages -->
-  <project remote="pkarashchenko" name="opx-core"/>
+  <project name="opx-core"/>
 
   <!-- The following section is for build tools and scripts -->
-  <project remote="pkarashchenko" name="opx-build"/>
+  <project name="opx-build"/>
 </manifest>
