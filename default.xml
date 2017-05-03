@@ -11,7 +11,7 @@
   <project name="opx-common-utils"/>
   <project name="opx-cps"/>
   <project name="opx-db-sql"/>
-  <project remote="pkarashchenko" name="opx-logging"/>
+  <project name="opx-logging"/>
 
   <!-- The following section is for API model definitions -->
   <project name="opx-base-model"/>
@@ -32,7 +32,7 @@
 
   <!-- SAI -->
   <project path="opx-sai-api" name="SAI" revision="dell.0.94+" />
-  <project remote="pkarashchenko" name="opx-sai-common"/>
+  <project name="opx-sai-common"/>
   <project name="opx-sai-common-utils"/>
   <project name="opx-sai-vm"/>
 
