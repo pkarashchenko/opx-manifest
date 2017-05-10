@@ -23,7 +23,7 @@
   <project name="opx-nas-interface"/>
   <project name="opx-nas-l2"/>
   <project name="opx-nas-l3"/>
-  <project remote="pkarashchenko" name="opx-nas-ndi"/>
+  <project name="opx-nas-ndi"/>
   <project name="opx-nas-ndi-api"/>
   <project name="opx-nas-qos"/>
 
