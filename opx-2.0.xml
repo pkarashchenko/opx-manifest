@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="opx" fetch="https://github.com/open-switch" revision="master"/>
+  <remote name="pkarashchenko" fetch="https://github.com/pkarashchenko" revision="as7512-32x-dev"/>
+  <default remote="opx" sync-j="4"/>
+
+  <!-- The following section is for platform-specific configuration files-->
+  <project name="opx-platform-config" remote="pkarashchenko" revision="83d1fe51f9155317d0b1f23de8536124a38b7bd0"/>
+  
+  <!-- The following section is for infrastructure and libraries-->
+  <project name="opx-common-utils" revision="dd8ba7b7fb6ea2a71e6ed306ad78f44c917b781e"/>
+  <project name="opx-cps" revision="554c317ccbef3890acfb2d5fb9b0474517f7ed8d"/>
+  <project name="opx-db-sql" revision="9f88e3e722149b0b8d3470b0e603f5991e74e6d7"/>
+  <project name="opx-logging" revision="a9eacc0ebbc06a1fac7d260741324b0fe4d9c831"/>
+
+  <!-- The following section is for API model definitions -->
+  <project name="opx-base-model" revision="58ea12fabcc1926d9624d07099959cb45b6c886b"/>
+
+  <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
+  <project name="opx-nas-acl" remote="pkarashchenko" revision="e9fab87252121bea69ed7cfe98b264d9e24c9343"/>
+  <project name="opx-nas-common" revision="ff8d457564efdb17c789860b5a2a81a37321f375"/>
+  <project name="opx-nas-daemon" revision="bd2f656999ad349e71b2c3002ef0b006906aba75"/>
+  <project name="opx-nas-interface" revision="79089fb8bd01a1e1eb50338f17d0e34d8d883af0"/>
+  <project name="opx-nas-l2" revision="0d784c7c61d88aee66bd20c77fc26be520ee1185"/>
+  <project name="opx-nas-l3" revision="67d90c91c76baa62e4dd439ba6ba89097ccb451d"/>
+  <project name="opx-nas-ndi" revision="c92461aabd9172d0163ce6d3472e17affbd33eb4"/>
+  <project name="opx-nas-ndi-api" revision="cf4ea2ec3b9849afcc026d71b77852b809888a1d"/>
+  <project name="opx-nas-qos" revision="fe03246dd5d987ad73afd8e64c5d65d238787217"/>
+
+  <!-- The following section is for the linux adaption layer - essentially the hooks allowing linux to work with the rest of the system -->
+  <project name="opx-nas-linux" revision="7f2dadaf45597358cf80c6dd1c140123dc12d47e"/>
+
+  <!-- SAI -->
+  <project path="opx-sai-api" name="SAI" revision="dell.0.94+" />
+  <project name="opx-sai-common" revision="ec46de49c984118c54b1bb6b2da5f4fc2963b8bf"/>
+  <project name="opx-sai-common-utils" revision="b2cee1e9499c7a791faeb537f832f7e512c392f5"/>
+  <project name="opx-sai-vm" revision="0eecdd4dbcf83024583f6e4fd3dfba3f43ee9fa1"/>
+
+  <!-- The following section is for platform service configuration -->
+  <project name="opx-pas" revision="1adb38884df31735a1e63533061f763564e33813"/>
+
+  <!-- SDI -->
+  <project name="opx-sdi-api" revision="ea443c49c0479000ac489dfb68d0b62bcadda694"/>
+  <project name="opx-sdi-device-drivers" revision="9fe19a1d3fee8c41a28834e1f6704062d68b88dc"/>
+  <project name="opx-sdi-sys" revision="b498bad933f006e3bb58b629f87bf48b77dce881"/>
+  <project name="opx-sdi-sys-vm" revision="b43581578fc2f03b8600d47e20542534719680d4"/>
+  <project name="opx-sdi-framework" revision="922efcb57ce355943cb647a1ab321c1f9493dca3"/>
+
+  <!-- The following section is for the remaining miscellaneous packages -->
+  <project name="opx-tmpctl" revision="90285c05f16108866cc13cd86bc4b90bd07eafbd"/>
+
+  <!-- The following section is for build tools and scripts -->
+  <project name="opx-build" revision="2c3e01ce4239748e1d1b285be7893b3de895f515"/>
+  <project name="opx-onie-installer" remote="pkarashchenko" revision="80604f2ebedc13ad2a7923d37057816cc7a29376"/>
+
+  <!-- The metapackage containing all platform-independent packages -->
+  <project name="opx-core" revision="7728c33946f274ca12233757ce9cf75e5ce30032"/>
+</manifest>
